@@ -1,0 +1,63 @@
+# gitee.com/openeuler/go-gitee v0.0.0-20200506042249-a91b6e6ed1b1
+## explicit
+gitee.com/openeuler/go-gitee/gitee
+# github.com/aliyun/aliyun-oss-go-sdk v2.1.2+incompatible
+## explicit
+github.com/aliyun/aliyun-oss-go-sdk/oss
+# github.com/antihax/optional v1.0.0
+github.com/antihax/optional
+# github.com/golang/protobuf v1.4.2
+## explicit
+github.com/golang/protobuf/proto
+# github.com/google/go-github v17.0.0+incompatible
+## explicit
+github.com/google/go-github/github
+# github.com/google/go-querystring v1.0.0
+## explicit
+github.com/google/go-querystring/query
+# golang.org/x/net v0.0.0-20190108225652-1e06a53dbb7e
+golang.org/x/net/context
+golang.org/x/net/context/ctxhttp
+# golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
+## explicit
+golang.org/x/oauth2
+golang.org/x/oauth2/internal
+# golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
+## explicit
+golang.org/x/time/rate
+# google.golang.org/appengine v1.4.0
+google.golang.org/appengine/internal
+google.golang.org/appengine/internal/base
+google.golang.org/appengine/internal/datastore
+google.golang.org/appengine/internal/log
+google.golang.org/appengine/internal/remote_api
+google.golang.org/appengine/internal/urlfetch
+google.golang.org/appengine/urlfetch
+# google.golang.org/protobuf v1.23.0
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/fieldnum
+google.golang.org/protobuf/internal/fieldsort
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/genname
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/mapsort
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/set
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/runtime/protoimpl

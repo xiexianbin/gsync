@@ -27,11 +27,20 @@
 
 [[constraint]]
   name = "github.com/aliyun/aliyun-oss-go-sdk"
-  version = "2.0.5"
+  version = "2.1.2"
 
 [[constraint]]
-  name = "gotest.tools"
-  version = "2.3.0"
+  name = "github.com/google/go-github"
+  version = "32.0.0"
+
+[[constraint]]
+  branch = "master"
+  name = "golang.org/x/oauth2"
+
+[[constraint]]
+  branch = "master"
+  name = "gitee.com/openeuler/go-gitee"
+  source = "https://gitee.com/openeuler/go-gitee.git"
 
 [prune]
   go-tests = true

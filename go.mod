@@ -7,6 +7,7 @@ go 1.14
 require (
 	gitee.com/openeuler/go-gitee v0.0.0-20200506042249-a91b6e6ed1b1
 	github.com/aliyun/aliyun-oss-go-sdk v2.1.2+incompatible
+	github.com/antihax/optional v1.0.0
 	github.com/golang/protobuf v1.4.2 // indirect
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/go-querystring v1.0.0 // indirect

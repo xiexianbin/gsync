@@ -1,17 +1,15 @@
-package oss
+package aliyun
 
 import (
 	"fmt"
 	"reflect"
 	"syscall"
 	"testing"
-
-	"github.com/xiexianbin/gsync/drivers/aliyun"
 )
 
 func TestSyncLocalToOSS(t *testing.T) {
 	metaKey := "Content-Md5sum"
-	aliyunOSSConfig := &aliyun.AliyunOSSConfig{
+	config := &OSSConfig{
 		//Endpoint:        "oss-cn-hangzhou.aliyuncs.com",
 		//BucketName:      "dev-blog-xiexianbin-cn",
 		Endpoint:        "oss-cn-shanghai.aliyuncs.com",
@@ -22,7 +20,7 @@ func TestSyncLocalToOSS(t *testing.T) {
 	sourceDir := "/Users/xiexianbin/work/code/github/xiexianbin/xiexianbin.github.io/public"
 	//sourceDir := "/Users/xiexianbin/work/code/github/xiexianbin/docs.xiexianbin.cn/public"
 
-	err := SyncLocalToOSS(aliyunOSSConfig, sourceDir, metaKey, "")
+	err := SyncLocalToOSS(config, sourceDir, metaKey, "", []string{})
 	if err != nil {
 		fmt.Println("err", err)
 	}

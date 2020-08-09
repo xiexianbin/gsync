@@ -18,7 +18,7 @@ func TestDiffMap(t *testing.T) {
 	type M map[string]interface{}
 	m1 := M{"a": "a", "b": "b", "c": "c", "e": "e"}
 	m2 := M{"a": "a", "b": "b", "d": "d", "e": "f"}
-	justM1, justM2, diffM1AndM2, _ := DiffMap(M(m1), M(m2))
+	justM1, justM2, diffM1AndM2, _ := DiffMap(m1, m2)
 	fmt.Println("justM1")
 	for k, v := range justM1 {
 		fmt.Println(k, v)

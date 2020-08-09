@@ -153,6 +153,7 @@
   input-imports = [
     "gitee.com/openeuler/go-gitee/gitee",
     "github.com/aliyun/aliyun-oss-go-sdk/oss",
+    "github.com/antihax/optional",
     "github.com/google/go-github/github",
     "golang.org/x/oauth2",
   ]

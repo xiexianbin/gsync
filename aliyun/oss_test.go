@@ -11,8 +11,8 @@ func TestOSS(t *testing.T) {
 	//	BucketName:      "dev-blog-xiexianbin-cn",
 	//	//Endpoint:        "oss-cn-shanghai.aliyuncs.com",
 	//	//BucketName:      "blog-xiexianbin-cn",
-	//	AccessKeyID:     "LTAI4FwZ3yELG1fXSjwp293R",
-	//	AccessKeySecret: "w2kPotoFvKSU5WkNIA3ujO1aZAihO5",
+	//	AccessKeyID:     "",
+	//	AccessKeySecret: "",
 	//}
 	//
 	//metaKey := "Content-Md5sum"

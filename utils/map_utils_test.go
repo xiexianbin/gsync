@@ -21,16 +21,16 @@ func TestDiffMap(t *testing.T) {
 	justM1, justM2, diffM1AndM2, _ := DiffMap(m1, m2)
 	fmt.Println("justM1")
 	for k, v := range justM1 {
-		fmt.Println(k, v)
+		fmt.Println(k, ":", v)
 	}
 
 	fmt.Println("justM2")
 	for k, v := range justM2 {
-		fmt.Println(k, v)
+		fmt.Println(k, ":", v)
 	}
 
 	fmt.Println("diffM1AndM2")
 	for k, v := range diffM1AndM2 {
-		fmt.Println(k, v)
+		fmt.Println(k, ":", v)
 	}
 }
